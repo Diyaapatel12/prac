@@ -1,0 +1,22 @@
+{
+  "name": "pracmid",
+  "version": "1.0.0",
+  "description": "this is my sec bootstrap project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diyaapatel12"
+  },
+  "license": "MIT",
+  "author": "Diya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
